@@ -20,7 +20,7 @@ class Seed_stock
   
   def self.load_from_file(file)
     abort("Sorry, I can't find #{file}") unless (File.exists?(file)) # Check if file exists 
-    abort("Sorry, there's no info in #{file}") unless (File.size?(file)) # Check if file is empty (or presence, but that has already
+    abort("Sorry, there's no info in #{file}") if (File.size?(file)==0) # Check if file is empty (or presence, but that has already
     #been checkd by empty?)
     f=File.open(file, "r") # Open file and read it
     $header = f.readline # Save header line    
