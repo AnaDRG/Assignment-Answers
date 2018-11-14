@@ -1,0 +1,227 @@
+Interaction 1
+hat1_arath interacts with psad2_arath
+	Interactor 1
+	Gene ID: AT4g17460
+	Protein Name: hat1_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0003006	developmental process involved in reproduction
+		GO_term_Biol_process: GO:0010582	floral meristem determinacy
+		GO_term_Biol_process: GO:0080127	fruit septum development
+		GO_term_Biol_process: GO:0048467	gynoecium development
+
+	Interactor 2
+	Gene ID: AT1g03130
+	Protein Name: psad2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+
+Interaction 2
+q39141_arath interacts with hat1_arath, psad2_arath
+	Interactor 1
+	Gene ID: AT2g34420
+	Protein Name: q39141_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+
+	Interactor 2
+	Gene ID: AT4g17460
+	Protein Name: hat1_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0003006	developmental process involved in reproduction
+		GO_term_Biol_process: GO:0010582	floral meristem determinacy
+		GO_term_Biol_process: GO:0080127	fruit septum development
+		GO_term_Biol_process: GO:0048467	gynoecium development
+
+	Interactor 3
+	Gene ID: AT1g03130
+	Protein Name: psad2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+
+Interaction 3
+pnsb3_arath interacts with hat1_arath, psad2_arath, q39141_arath
+	Interactor 1
+	Gene ID: AT3g16250
+	Protein Name: pnsb3_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0009773	photosynthetic electron transport in photosystem I
+
+	Interactor 2
+	Gene ID: AT4g17460
+	Protein Name: hat1_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0003006	developmental process involved in reproduction
+		GO_term_Biol_process: GO:0010582	floral meristem determinacy
+		GO_term_Biol_process: GO:0080127	fruit septum development
+		GO_term_Biol_process: GO:0048467	gynoecium development
+
+	Interactor 3
+	Gene ID: AT1g03130
+	Protein Name: psad2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+
+	Interactor 4
+	Gene ID: AT2g34420
+	Protein Name: q39141_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+
+Interaction 4
+pnsb5_arath interacts with ptr21_arath
+	Interactor 1
+	Gene ID: AT5g43750
+	Protein Name: pnsb5_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0006979	response to oxidative stress
+
+	Interactor 2
+	Gene ID: AT1g69870
+	Protein Name: ptr21_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0042128	nitrate assimilation
+		GO_term_Biol_process: GO:0015706	nitrate transport
+
+Interaction 5
+cb1a_arath interacts with hat1_arath, pnsb3_arath, psad2_arath, q39141_arath
+	Interactor 1
+	Gene ID: AT1g29920
+	Protein Name: cb1a_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009637	response to blue light
+		GO_term_Biol_process: GO:0010218	response to far red light
+		GO_term_Biol_process: GO:0009750	response to fructose
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+		GO_term_Biol_process: GO:0010114	response to red light
+
+	Interactor 2
+	Gene ID: AT4g17460
+	Protein Name: hat1_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0003006	developmental process involved in reproduction
+		GO_term_Biol_process: GO:0010582	floral meristem determinacy
+		GO_term_Biol_process: GO:0080127	fruit septum development
+		GO_term_Biol_process: GO:0048467	gynoecium development
+
+	Interactor 3
+	Gene ID: AT3g16250
+	Protein Name: pnsb3_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0009773	photosynthetic electron transport in photosystem I
+
+	Interactor 4
+	Gene ID: AT1g03130
+	Protein Name: psad2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+
+	Interactor 5
+	Gene ID: AT2g34420
+	Protein Name: q39141_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+
+Interaction 6
+psad1_arath interacts with psad2_arath, hat1_arath, pnsb3_arath, cb1a_arath, q39141_arath, fnrl2_arath
+	Interactor 1
+	Gene ID: AT4g02770
+	Protein Name: psad1_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+		GO_term_Biol_process: GO:0035556	intracellular signal transduction
+
+	Interactor 2
+	Gene ID: AT1g03130
+	Protein Name: psad2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0015979	photosynthesis
+
+	Interactor 3
+	Gene ID: AT4g17460
+	Protein Name: hat1_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0003006	developmental process involved in reproduction
+		GO_term_Biol_process: GO:0010582	floral meristem determinacy
+		GO_term_Biol_process: GO:0080127	fruit septum development
+		GO_term_Biol_process: GO:0048467	gynoecium development
+
+	Interactor 4
+	Gene ID: AT3g16250
+	Protein Name: pnsb3_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0009773	photosynthetic electron transport in photosystem I
+
+	Interactor 5
+	Gene ID: AT1g29920
+	Protein Name: cb1a_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009637	response to blue light
+		GO_term_Biol_process: GO:0010218	response to far red light
+		GO_term_Biol_process: GO:0009750	response to fructose
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+		GO_term_Biol_process: GO:0010114	response to red light
+
+	Interactor 6
+	Gene ID: AT2g34420
+	Protein Name: q39141_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+
+	Interactor 7
+	Gene ID: AT1g20020
+	Protein Name: fnrl2_arath
+	Annotations:
+		Pathway: ath00195	Photosynthesis
+		GO_term_Biol_process: GO:0042742	defense response to bacterium
+		GO_term_Biol_process: GO:0015979	photosynthesis
+		GO_term_Biol_process: GO:0009735	response to cytokinin
+		GO_term_Biol_process: GO:0006260	DNA replication
+
+Interaction 7
+cb4a_arath interacts with agp26_arath
+	Interactor 1
+	Gene ID: AT5g01530
+	Protein Name: cb4a_arath
+	Annotations:
+		Pathway: ath00196	Photosynthesis - antenna proteins
+		GO_term_Biol_process: GO:0018298	protein-chromophore linkage
+		GO_term_Biol_process: GO:0009637	response to blue light
+		GO_term_Biol_process: GO:0010218	response to far red light
+		GO_term_Biol_process: GO:0009416	response to light stimulus
+		GO_term_Biol_process: GO:0010114	response to red light
+
+	Interactor 2
+	Gene ID: AT2g47930
+	Protein Name: agp26_arath
+	Annotations:
+		Pathway: Unknown_pathway
+		GO_term_Biol_process: GO:0080167	response to karrikin
+
