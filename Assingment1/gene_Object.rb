@@ -1,92 +1,64 @@
-##### ASSINGMENT #2 #####
+##### ASSINGMENT #1 #####
 # Gene class file
 
 class Gene
-  
+  @@linked_number=0 # Set the number of genes that are linked to 0
   attr_accessor :id  # Gene id
-  attr_accessor :prot # Protein name
-  attr_accessor :annot # Annotation objects associated to gene
-  attr_accessor :kegg_entry # Kegg entry ID, unique for each Gene object  
-  @@all_proteins=[] # Class attribute, array with all proteins codified by file genes
-  @@all_genes=[] # Class attribute, array with all gene objects from file genes
+  attr_accessor :name # Gene name 
+  attr_accessor :mut_phen # Mutant phenotype
+  attr_accessor :linked_to # Gene that is linked to
   
   def initialize (params = {}) # Get a value from the "new" call, or set a default
-    # @id = "Unknown_gene_id", @prot="Unknown_protein_name", @annot="Unknown_annotation", @kegg_entryº=nil
-    @id = params.fetch(:id, "Unknown_gene_id")
-    @prot = params.fetch(:prot, "Unknown_protein_name")
-    @annot = params.fetch(:annot, "Unknown_annotation")
-    @kegg_entry = params.fetch(:kegg_entry, nil)
+    # @id = "000000000", @name = "Unknown_name", @mut_phen = "Unknown_mutant_phenotype", @linked_to = "Not_linked_to_any_other_gene"
+    @id = params.fetch(:id, "000000000")
+    @name = params.fetch(:name, "Unknown_name") 
+    @mut_phen = params.fetch(:mut_phen, "Unknown_mutant_phenotype")
+    @linked_to = params.fetch(:linked_to, "Not_linked_to_any_other_gene")
   end
   
-  def self.load_from_file(file) # Given a file name, it assigns each attribute value to file info    
+  def self.load_from_file(file) # Given a file name, it assigns each attribute value to file info
+    
     abort("Sorry, I can't find #{file}") unless (File.exists?(file)) # Check if file exists 
-    abort("Sorry, there's no info in #{file}") if (File.size?(file)==0) # Check if file is empty (or present, but that has already
+    abort("Sorry, there's no info in #{file}") if (File.size?(file)==0) # Check if file is empty (or presence, but that has already
     #been checked by empty?)
-    #all_genes=[]
-    f=File.open(file, "r") # Open file and read it    
-    f.each_line do |id| # For each line, assing values included to class properties
-      next if id.strip.empty? # If an intermediate line is empty, pass to the next one
+    f=File.open(file, "r") # Open file and read it
+    f.readline # Header is removed from f    
+    @id = Hash.new # Assings the property as a new hash
+    @name = Array.new # Assings the property as a new array
+    @mut_phen = Array.new
+    
+    f.each_line do |line| # For each line, assing values included to class properties
+      line.chomp # Delete \n from lines
+      next if line.strip.empty? # If an intermediate line is empty, pass to the next one
+      id, name, mut_phen = line.split("\t") # Match each column of dataset
       id_format = Regexp.new(/A[Tt]\d[Gg]\d\d\d\d\d/) # Check Arabidopsis gene identifier format and, if not right, returns a message and abort
-      abort("Sorry, Arabidopsis gene identifiers have not the right format (e.g. AT1G12345)") unless id_format.match(id)
-      # Create a new gene object and assign ID without \n with .chomp 
-      g=Gene.new(:id => id.chomp)     
-      @@all_genes.push(g)
-    end    
-  end
-    
-  def self.search_kegg(k_entry) # Search KEGG Pathway and return pathway ID and pathway name
-      res = fetch("http://togows.org/entry/kegg-compound/#{k_entry}") unless k_entry.nil?;
-      if res  # res is either the response object (Class Net::HTTPSuccess), or False, so you can test it with 'if'
-        body = res.body  # get the "body" of the response
-        m=body.match(/PATHWAY\s+(?<path_id>[a-zA-Z0-9]+)\s+(?<path_name>[a-zA-Z0-9 -]+)\n/)                
-        (m) ? (return m[:path_id], m[:path_name]):(return "Unknown_pathway") # Return pathway ID and pathway name or "Unknown_pathway"    
-      else
-        return "Unknown_pathway"
-      end
+      abort("Sorry, Arabidopsis gene identifiers have not the right format (e.g. AT1G12345)") unless id_format.match(id) 
+      # Assing values in the id, name and mut_phen variables to class properties
+      @id[id.to_s] = [name, mut_phen] # Id contains info about the other gene info 
+      @name << name
+      @mut_phen << mut_phen
+      
     end
+  end
+
+  def self.get_gene_info(id) # Given a seed stock id, it returns all info about it from the gene data as an array
+    return @id.fetch(id) if @id.key?(id)
+  end
   
-  def self.search_uniprot(gp) # Search protein name knowing gene ID (or vice versa), kegg entry ID and GO terms (biological process). gp= [gene_ID/protein_name, g (gene)/p (protein)]
-      id=gp[0].id if gp[1] == 'g'
-      id=gp[0] if gp[1] == 'p'
-      res = fetch("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=uniprotkb&id=#{id}&format=default&style=raw");
-      if res  # res is either the response object (Class Net::HTTPSuccess), or False, so you can test it with 'if'
-        body = res.body  # get the "body" of the response
-        if gp[1] =='g' # Search protein name and add as an object property
-          m=body.match(/ID\s+(?<prot_name>[a-zA-Z0-9_]+)/)
-          (m) ? (gp[0].prot = m[:prot_name].downcase and @@all_proteins << m[:prot_name].downcase) :(@@all_proteins << "Unknown_protein")
-          g=gp[0]
-        else # Search gene ID, create Gene object and add id and prot object properties
-          m=body.match(/OrderedLocusNames=(?<gene_id>[a-zA-Z0-9_]+)/)
-          g=Gene.new(:id => m[:gene_id], :prot => id.downcase) if m
-        end
-        # Look for KEGG entry code needed for searching interactions
-        m=body.match(/KEGG;\s(?<k_entry>[a-zA-Z0-9_:]+)/)
-        if m                    
-          g.kegg_entry=m[:k_entry] # Assign KEGG entry as Gene object property
-          id_path, name_path=Gene.search_kegg(m[:k_entry]) # Get pathway information from KEGG entry
-          # Add to annot property an Annotation Object created from pathway information. If array is not created, create it with this object.
-          g.annot << Annotation.annotate("Pathway",id_path, name_path) rescue g.annot=[Annotation.annotate("Pathway",id_path, name_path)]        
-        end
-        # Search GO terms from the biological_process part of the GO Ontology
-        go=body.scan(/GO;\s(GO:[0-9]{7});\sP:([A-Za-z0-9 -]+);/) # go = array where each element is a hash {GO ID => GO term}
-        if go.any? # If there are GO terms associated, add to annot property an Annotation Object created from GO term information. If array is not created, create it with this object.
-          go=go.uniq
-          go.each {|go| g.annot << Annotation.annotate("GO_term_Biol_process", go[0], go[1]) rescue g.annot=[Annotation.annotate("GO_term_Biol_process",go[0], go[1])]} 
-        end
-        return g if gp[1] == 'p' 
-      end      
-  end
+  def self.linked_to(id1,id2)
     
-  def self.annotate_interactors(id) # Use protein names from interactors (not in file) to get information about them (not used in main script but useful for annotation of the full networks obtained)
-      Gene.search_uniprot([id,'p'])
+    @linked_to=Hash.new if @@linked_number==0 # If no linked genes have been identified, it assigns @linked_to as a new hash
+    # If that gene is already linked to other genes, the new linked gene is added to its array associated @linked_to[id]
+    # Genes linked are added to the id hash as an array: @id[ID][2] = array of ids from genes linked to the gene with the id ID
+    (@linked_to[id1]) ? (@linked_to[id1] << [id2] and @id[id1][2].push([id2])):(@linked_to[id1]=[id2] and @id[id1].push([id2])) 
+    (@linked_to[id2]) ? (@linked_to[id2] << [id1] and @id[id1][2].push([id2])):(@linked_to[id2]=[id1] and @id[id2].push([id1]))    
+    @@linked_number+=1 # Count the amount of linked gene pairs
+    
   end
-
-  def self.genes_in_file # Get @@all_genes, array with all Gene object created from file  
-      return @@all_genes
-    end
-
-  def self.prot_in_file # Get @@all_genes, array with all Gene object created from file  
-      return @@all_proteins
-    end
+  
+  def self.get_genes_linked
+    return @linked_to unless @@linked_number==0 # Get the hash linked_to only if there are genes linked (linked_number > 0)
+  end
   
 end
+  
