@@ -1,0 +1,657 @@
+##gff-version 3
+AT5g54270	.	repeat_region	1099	1104	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g54270;target_sequence=cttctt
+
+AT1g21400	.	repeat_region	214	219	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g21400;target_sequence=cttctt
+
+AT1g21400	.	repeat_region	247	252	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g21400;target_sequence=cttctt
+
+AT1g21400	.	repeat_region	255	260	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g21400;target_sequence=cttctt
+
+AT5g19120	.	repeat_region	102	107	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g19120;target_sequence=cttctt
+
+AT5g19120	.	repeat_region	108	113	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g19120;target_sequence=cttctt
+
+AT5g19120	.	repeat_region	124	129	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g19120;target_sequence=cttctt
+
+AT4g05180	.	repeat_region	483	488	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g05180;target_sequence=cttctt
+
+AT1g22690	.	repeat_region	883	888	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g22690;target_sequence=cttctt
+
+AT2g45170	.	repeat_region	1250	1255	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g45170;target_sequence=cttctt
+
+AT2g45170	.	repeat_region	1298	1303	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g45170;target_sequence=cttctt
+
+AT2g45170	.	repeat_region	1374	1379	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g45170;target_sequence=cttctt
+
+AT2g45170	.	repeat_region	60	65	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g45170;target_sequence=cttctt
+
+AT2g45170	.	repeat_region	66	71	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g45170;target_sequence=cttctt
+
+AT4g09650	.	repeat_region	5	10	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g09650;target_sequence=cttctt
+
+AT4g09650	.	repeat_region	11	16	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g09650;target_sequence=cttctt
+
+AT4g09650	.	repeat_region	355	360	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g09650;target_sequence=cttctt
+
+AT4g09650	.	repeat_region	868	873	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g09650;target_sequence=cttctt
+
+AT5g55620	.	repeat_region	283	288	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g55620;target_sequence=cttctt
+
+AT1g31330	.	repeat_region	3	8	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g31330;target_sequence=cttctt
+
+AT1g80440	.	repeat_region	170	175	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g80440;target_sequence=cttctt
+
+AT1g80440	.	repeat_region	254	259	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g80440;target_sequence=cttctt
+
+AT1g80440	.	repeat_region	477	482	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g80440;target_sequence=cttctt
+
+AT1g80440	.	repeat_region	776	781	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g80440;target_sequence=cttctt
+
+AT1g80440	.	repeat_region	1361	1366	.	+	.	ID=AT1G21400.6.exon1;parent=AT1g80440;target_sequence=cttctt
+
+AT4g12800	.	repeat_region	916	921	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g12800;target_sequence=cttctt
+
+AT4g12800	.	repeat_region	1044	1049	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g12800;target_sequence=cttctt
+
+AT4g12800	.	repeat_region	1159	1164	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g12800;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	7958	7963	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	7979	7984	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	324	329	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	413	418	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	6890	6895	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	4424	4429	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	6667	6672	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	137	142	.	+	.	ID=AT1G21400.3.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	143	148	.	+	.	ID=AT1G21400.3.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT5g04140	.	repeat_region	155	160	.	+	.	ID=AT1G21400.3.exon1;parent=AT5g04140;target_sequence=cttctt
+
+AT1g15820	.	repeat_region	563	568	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g15820;target_sequence=cttctt
+
+AT1g15820	.	repeat_region	155	160	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g15820;target_sequence=cttctt
+
+AT2g20670	.	repeat_region	1401	1406	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g20670;target_sequence=cttctt
+
+AT1g23740	.	repeat_region	1477	1482	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g23740;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	1175	1180	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g46340;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	5124	5129	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g46340;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	5118	5123	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g46340;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	5112	5117	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g46340;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	4920	4925	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g46340;target_sequence=cttctt
+
+AT2g46340	.	repeat_region	220	225	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g46340;target_sequence=cttctt
+
+AT4g17460	.	repeat_region	430	435	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g17460;target_sequence=cttctt
+
+AT4g17460	.	repeat_region	1600	1605	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g17460;target_sequence=cttctt
+
+AT4g17460	.	repeat_region	1692	1697	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g17460;target_sequence=cttctt
+
+AT1g07010	.	repeat_region	219	224	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g07010;target_sequence=cttctt
+
+AT1g32220	.	repeat_region	1050	1055	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g32220;target_sequence=cttctt
+
+AT1g32220	.	repeat_region	1349	1354	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g32220;target_sequence=cttctt
+
+AT1g32220	.	repeat_region	1678	1683	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g32220;target_sequence=cttctt
+
+AT2g03750	.	repeat_region	965	970	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g03750;target_sequence=cttctt
+
+AT2g03750	.	repeat_region	81	86	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g03750;target_sequence=cttctt
+
+AT3g47470	.	repeat_region	1479	1484	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g47470;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	4091	4096	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	4072	4077	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	3710	3715	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	3276	3281	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	3259	3264	.	-	.	ID=AT1G21400.6.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	203	208	.	-	.	ID=AT1G21400.6.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g05690	.	repeat_region	2974	2979	.	-	.	ID=AT1G21400.6.exon1;parent=AT5g05690;target_sequence=cttctt
+
+AT5g64410	.	repeat_region	1616	1621	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g64410;target_sequence=cttctt
+
+AT2g21330	.	repeat_region	213	218	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g21330;target_sequence=cttctt
+
+AT2g21330	.	repeat_region	819	824	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g21330;target_sequence=cttctt
+
+AT1g15980	.	repeat_region	174	179	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g15980;target_sequence=cttctt
+
+AT1g15980	.	repeat_region	445	450	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g15980;target_sequence=cttctt
+
+AT1g15980	.	repeat_region	483	488	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g15980;target_sequence=cttctt
+
+AT1g12250	.	repeat_region	1952	1957	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g12250;target_sequence=cttctt
+
+AT1g12250	.	repeat_region	1750	1755	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g12250;target_sequence=cttctt
+
+AT1g12250	.	repeat_region	3	8	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g12250;target_sequence=cttctt
+
+AT4g28660	.	repeat_region	110	115	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g28660;target_sequence=cttctt
+
+AT3g18890	.	repeat_region	3786	3791	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g18890;target_sequence=cttctt
+
+AT3g18890	.	repeat_region	2145	2150	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g18890;target_sequence=cttctt
+
+AT4g22890	.	repeat_region	242	247	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g22890;target_sequence=cttctt
+
+AT4g22890	.	repeat_region	333	338	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g22890;target_sequence=cttctt
+
+AT4g22890	.	repeat_region	2433	2438	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g22890;target_sequence=cttctt
+
+AT4g22890	.	repeat_region	1981	1986	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g22890;target_sequence=cttctt
+
+AT4g22890	.	repeat_region	1851	1856	.	+	.	ID=AT1G21400.6.exon1;parent=AT4g22890;target_sequence=cttctt
+
+AT1g37130	.	repeat_region	1175	1180	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g37130;target_sequence=cttctt
+
+AT2g04039	.	repeat_region	187	192	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g04039;target_sequence=cttctt
+
+AT2g04039	.	repeat_region	408	413	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g04039;target_sequence=cttctt
+
+AT3g48420	.	repeat_region	209	214	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g48420;target_sequence=cttctt
+
+AT3g48420	.	repeat_region	215	220	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g48420;target_sequence=cttctt
+
+AT4g19170	.	repeat_region	230	235	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g19170;target_sequence=cttctt
+
+AT4g19170	.	repeat_region	274	279	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g19170;target_sequence=cttctt
+
+AT5g07020	.	repeat_region	1862	1867	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g07020;target_sequence=cttctt
+
+AT5g07020	.	repeat_region	1845	1850	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g07020;target_sequence=cttctt
+
+AT5g07020	.	repeat_region	1664	1669	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g07020;target_sequence=cttctt
+
+AT5g65010	.	repeat_region	1007	1012	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g65010;target_sequence=cttctt
+
+AT3g01500	.	repeat_region	4184	4189	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g01500;target_sequence=cttctt
+
+AT3g01500	.	repeat_region	4064	4069	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g01500;target_sequence=cttctt
+
+AT3g01500	.	repeat_region	3420	3425	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g01500;target_sequence=cttctt
+
+AT3g01500	.	repeat_region	3361	3366	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g01500;target_sequence=cttctt
+
+AT3g01500	.	repeat_region	3328	3333	.	-	.	ID=AT1G21400.6.exon1;parent=AT3g01500;target_sequence=cttctt
+
+AT1g25230	.	repeat_region	1317	1322	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g25230;target_sequence=cttctt
+
+AT1g25230	.	repeat_region	2035	2040	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g25230;target_sequence=cttctt
+
+AT1g18060	.	repeat_region	1441	1446	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g18060;target_sequence=cttctt
+
+AT2g30600	.	repeat_region	3	8	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g30600;target_sequence=cttctt
+
+AT2g30600	.	repeat_region	44	49	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g30600;target_sequence=cttctt
+
+AT2g30600	.	repeat_region	1374	1379	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g30600;target_sequence=cttctt
+
+AT1g65490	.	repeat_region	445	450	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g65490;target_sequence=cttctt
+
+AT1g65490	.	repeat_region	192	197	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g65490;target_sequence=cttctt
+
+AT1g65490	.	repeat_region	767	772	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g65490;target_sequence=cttctt
+
+AT3g21670	.	repeat_region	1378	1383	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g21670;target_sequence=cttctt
+
+AT3g21670	.	repeat_region	322	327	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g21670;target_sequence=cttctt
+
+AT3g21670	.	repeat_region	2347	2352	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g21670;target_sequence=cttctt
+
+AT1g12780	.	repeat_region	188	193	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g12780;target_sequence=cttctt
+
+AT1g12780	.	repeat_region	2365	2370	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g12780;target_sequence=cttctt
+
+AT1g12780	.	repeat_region	2288	2293	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g12780;target_sequence=cttctt
+
+AT1g12780	.	repeat_region	2219	2224	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g12780;target_sequence=cttctt
+
+AT1g12780	.	repeat_region	2203	2208	.	-	.	ID=AT1G21400.6.exon1;parent=AT1g12780;target_sequence=cttctt
+
+AT1g55480	.	repeat_region	1905	1910	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g55480;target_sequence=cttctt
+
+AT1g55480	.	repeat_region	232	237	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g55480;target_sequence=cttctt
+
+AT1g55480	.	repeat_region	466	471	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g55480;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	1001	1006	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	882	887	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	869	874	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	846	851	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	840	845	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	834	839	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT2g17880	.	repeat_region	484	489	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g17880;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3055	3060	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3049	3054	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3043	3048	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3017	3022	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3011	3016	.	-	.	ID=AT1G21400.6.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	3005	3010	.	-	.	ID=AT1G21400.6.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	2999	3004	.	-	.	ID=AT1G21400.6.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT3g49160	.	repeat_region	2993	2998	.	-	.	ID=AT1G21400.3.exon1;parent=AT3g49160;target_sequence=cttctt
+
+AT5g14740	.	repeat_region	4672	4677	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g14740;target_sequence=cttctt
+
+AT5g14740	.	repeat_region	246	251	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g14740;target_sequence=cttctt
+
+AT5g14740	.	repeat_region	252	257	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g14740;target_sequence=cttctt
+
+AT5g14740	.	repeat_region	289	294	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g14740;target_sequence=cttctt
+
+AT5g14740	.	repeat_region	1184	1189	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g14740;target_sequence=cttctt
+
+AT4g37980	.	repeat_region	1258	1263	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g37980;target_sequence=cttctt
+
+AT4g37980	.	repeat_region	1346	1351	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g37980;target_sequence=cttctt
+
+AT4g37980	.	repeat_region	1619	1624	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g37980;target_sequence=cttctt
+
+AT2g39730	.	repeat_region	2016	2021	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g39730;target_sequence=cttctt
+
+AT2g39730	.	repeat_region	1577	1582	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g39730;target_sequence=cttctt
+
+AT2g39730	.	repeat_region	31	36	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g39730;target_sequence=cttctt
+
+AT2g39730	.	repeat_region	2669	2674	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g39730;target_sequence=cttctt
+
+AT2g39730	.	repeat_region	2635	2640	.	-	.	ID=AT1G21400.6.exon1;parent=AT2g39730;target_sequence=cttctt
+
+AT1g20020	.	repeat_region	2383	2388	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g20020;target_sequence=cttctt
+
+AT1g20020	.	repeat_region	105	110	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g20020;target_sequence=cttctt
+
+AT1g20020	.	repeat_region	273	278	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g20020;target_sequence=cttctt
+
+AT1g70820	.	repeat_region	1166	1171	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g70820;target_sequence=cttctt
+
+AT1g70820	.	repeat_region	1724	1729	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g70820;target_sequence=cttctt
+
+AT3g26740	.	repeat_region	78	83	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g26740;target_sequence=cttctt
+
+AT3g26740	.	repeat_region	155	160	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g26740;target_sequence=cttctt
+
+AT3g26740	.	repeat_region	220	225	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g26740;target_sequence=cttctt
+
+AT3g26740	.	repeat_region	233	238	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g26740;target_sequence=cttctt
+
+AT3g26740	.	repeat_region	265	270	.	+	.	ID=AT1G21400.6.exon1;parent=AT3g26740;target_sequence=cttctt
+
+AT4g28780	.	repeat_region	936	941	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g28780;target_sequence=cttctt
+
+AT4g28780	.	repeat_region	1889	1894	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g28780;target_sequence=cttctt
+
+AT4g28780	.	repeat_region	2384	2389	.	+	.	ID=AT1G21400.5.exon1;parent=AT4g28780;target_sequence=cttctt
+
+AT1g12900	.	repeat_region	1648	1653	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g12900;target_sequence=cttctt
+
+AT1g12900	.	repeat_region	1322	1327	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g12900;target_sequence=cttctt
+
+AT1g12900	.	repeat_region	1938	1943	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g12900;target_sequence=cttctt
+
+AT1g64680	.	repeat_region	121	126	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g64680;target_sequence=cttctt
+
+AT1g64680	.	repeat_region	1143	1148	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g64680;target_sequence=cttctt
+
+AT1g64680	.	repeat_region	1308	1313	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g64680;target_sequence=cttctt
+
+AT2g25200	.	repeat_region	905	910	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g25200;target_sequence=cttctt
+
+AT2g25200	.	repeat_region	427	432	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g25200;target_sequence=cttctt
+
+AT3g55800	.	repeat_region	867	872	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g55800;target_sequence=cttctt
+
+AT3g55800	.	repeat_region	1425	1430	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g55800;target_sequence=cttctt
+
+AT3g55800	.	repeat_region	201	206	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g55800;target_sequence=cttctt
+
+AT3g55800	.	repeat_region	311	316	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g55800;target_sequence=cttctt
+
+AT4g21280	.	repeat_region	933	938	.	+	.	ID=AT5G54270.1.exon3;parent=AT4g21280;target_sequence=cttctt
+
+AT5g15850	.	repeat_region	291	296	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g15850;target_sequence=cttctt
+
+AT5g15850	.	repeat_region	990	995	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g15850;target_sequence=cttctt
+
+AT5g15850	.	repeat_region	1657	1662	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g15850;target_sequence=cttctt
+
+AT5g15850	.	repeat_region	1449	1454	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g15850;target_sequence=cttctt
+
+AT1g06680	.	repeat_region	1534	1539	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g06680;target_sequence=cttctt
+
+AT1g06680	.	repeat_region	698	703	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g06680;target_sequence=cttctt
+
+AT2g43550	.	repeat_region	36	41	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g43550;target_sequence=cttctt
+
+AT1g42970	.	repeat_region	178	183	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g42970;target_sequence=cttctt
+
+AT2g39470	.	repeat_region	539	544	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g39470;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	1751	1756	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g17300;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	2687	2692	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g17300;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	2654	2659	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g17300;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	2648	2653	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g17300;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	2630	2635	.	-	.	ID=AT1G21400.6.exon1;parent=AT5g17300;target_sequence=cttctt
+
+AT5g17300	.	repeat_region	2539	2544	.	-	.	ID=AT1G21400.6.exon1;parent=AT5g17300;target_sequence=cttctt
+
+AT1g77490	.	repeat_region	3156	3161	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g77490;target_sequence=cttctt
+
+AT1g77490	.	repeat_region	143	148	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g77490;target_sequence=cttctt
+
+AT1g77490	.	repeat_region	334	339	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g77490;target_sequence=cttctt
+
+AT3g27690	.	repeat_region	1566	1571	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g27690;target_sequence=cttctt
+
+AT3g27690	.	repeat_region	59	64	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g27690;target_sequence=cttctt
+
+AT3g27690	.	repeat_region	122	127	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g27690;target_sequence=cttctt
+
+AT1g64720	.	repeat_region	43	48	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g64720;target_sequence=cttctt
+
+AT1g64720	.	repeat_region	1341	1346	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g64720;target_sequence=cttctt
+
+AT1g64720	.	repeat_region	2065	2070	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g64720;target_sequence=cttctt
+
+AT1g64720	.	repeat_region	1769	1774	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g64720;target_sequence=cttctt
+
+AT1g64720	.	repeat_region	1142	1147	.	-	.	ID=AT1G21400.6.exon1;parent=AT1g64720;target_sequence=cttctt
+
+AT2g26080	.	repeat_region	4692	4697	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g26080;target_sequence=cttctt
+
+AT2g26080	.	repeat_region	3235	3240	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g26080;target_sequence=cttctt
+
+AT3g56940	.	repeat_region	1668	1673	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g56940;target_sequence=cttctt
+
+AT3g56940	.	repeat_region	1231	1236	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g56940;target_sequence=cttctt
+
+AT3g56940	.	repeat_region	30	35	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g56940;target_sequence=cttctt
+
+AT3g56940	.	repeat_region	282	287	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g56940;target_sequence=cttctt
+
+AT5g20250	.	repeat_region	318	323	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g20250;target_sequence=cttctt
+
+AT3g21870	.	repeat_region	288	293	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g21870;target_sequence=cttctt
+
+AT3g48360	.	repeat_region	2301	2306	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g48360;target_sequence=cttctt
+
+AT3g48360	.	repeat_region	2760	2765	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g48360;target_sequence=cttctt
+
+AT3g48360	.	repeat_region	2727	2732	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g48360;target_sequence=cttctt
+
+AT3g48360	.	repeat_region	2721	2726	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g48360;target_sequence=cttctt
+
+AT1g61520	.	repeat_region	460	465	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g61520;target_sequence=cttctt
+
+AT1g61520	.	repeat_region	810	815	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g61520;target_sequence=cttctt
+
+AT1g61520	.	repeat_region	1165	1170	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g61520;target_sequence=cttctt
+
+AT1g61520	.	repeat_region	1506	1511	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g61520;target_sequence=cttctt
+
+AT2g43010	.	repeat_region	369	374	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g43010;target_sequence=cttctt
+
+AT2g43010	.	repeat_region	1268	1273	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g43010;target_sequence=cttctt
+
+AT3g28220	.	repeat_region	2243	2248	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g28220;target_sequence=cttctt
+
+AT5g11070	.	repeat_region	893	898	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g11070;target_sequence=cttctt
+
+AT1g23205	.	repeat_region	865	870	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g23205;target_sequence=cttctt
+
+AT1g23205	.	repeat_region	859	864	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g23205;target_sequence=cttctt
+
+AT1g23205	.	repeat_region	249	254	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g23205;target_sequence=cttctt
+
+AT3g61470	.	repeat_region	1762	1767	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g61470;target_sequence=cttctt
+
+AT3g61470	.	repeat_region	1868	1873	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g61470;target_sequence=cttctt
+
+AT3g61470	.	repeat_region	175	180	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g61470;target_sequence=cttctt
+
+AT3g61470	.	repeat_region	242	247	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g61470;target_sequence=cttctt
+
+AT4g28750	.	repeat_region	966	971	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g28750;target_sequence=cttctt
+
+AT5g24210	.	repeat_region	1954	1959	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g24210;target_sequence=cttctt
+
+AT1g71030	.	repeat_region	1360	1365	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g71030;target_sequence=cttctt
+
+AT1g71030	.	repeat_region	847	852	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g71030;target_sequence=cttctt
+
+AT1g71030	.	repeat_region	544	549	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g71030;target_sequence=cttctt
+
+AT1g71030	.	repeat_region	415	420	.	-	.	ID=AT1G21400.5.exon1;parent=AT1g71030;target_sequence=cttctt
+
+AT1g71030	.	repeat_region	344	349	.	-	.	ID=AT1G21400.6.exon1;parent=AT1g71030;target_sequence=cttctt
+
+AT3g54050	.	repeat_region	151	156	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g54050;target_sequence=cttctt
+
+AT3g54890	.	repeat_region	1356	1361	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g54890;target_sequence=cttctt
+
+AT3g08940	.	repeat_region	189	194	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g08940;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	11	16	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	17	22	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	35	40	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	136	141	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	599	604	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	1193	1198	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT2g18700	.	repeat_region	2387	2392	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g18700;target_sequence=cttctt
+
+AT3g45780	.	repeat_region	5770	5775	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g45780;target_sequence=cttctt
+
+AT3g45780	.	repeat_region	45	50	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g45780;target_sequence=cttctt
+
+AT5g18670	.	repeat_region	1423	1428	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g18670;target_sequence=cttctt
+
+AT1g68570	.	repeat_region	787	792	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g68570;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	394	399	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g30950;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	556	561	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g30950;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	975	980	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g30950;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	1203	1208	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g30950;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	2734	2739	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g30950;target_sequence=cttctt
+
+AT2g30950	.	repeat_region	1735	1740	.	+	.	ID=AT1G21400.6.exon1;parent=AT2g30950;target_sequence=cttctt
+
+AT3g62410	.	repeat_region	8	13	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g62410;target_sequence=cttctt
+
+AT4g33660	.	repeat_region	1207	1212	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g33660;target_sequence=cttctt
+
+AT5g35170	.	repeat_region	1291	1296	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g35170;target_sequence=cttctt
+
+AT5g35170	.	repeat_region	239	244	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g35170;target_sequence=cttctt
+
+AT5g35170	.	repeat_region	79	84	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g35170;target_sequence=cttctt
+
+AT3g16250	.	repeat_region	1287	1292	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g16250;target_sequence=cttctt
+
+AT1g09340	.	repeat_region	271	276	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g09340;target_sequence=cttctt
+
+AT1g09340	.	repeat_region	289	294	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g09340;target_sequence=cttctt
+
+AT1g09340	.	repeat_region	481	486	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g09340;target_sequence=cttctt
+
+AT1g09340	.	repeat_region	591	596	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g09340;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	99	104	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g63140;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	1619	1624	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g63140;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	1613	1618	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g63140;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	1607	1612	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g63140;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	1601	1606	.	-	.	ID=AT1G21400.6.exon1;parent=AT3g63140;target_sequence=cttctt
+
+AT3g63140	.	repeat_region	1515	1520	.	+	.	ID=AT1G21400.6.exon1;parent=AT3g63140;target_sequence=cttctt
+
+AT1g76080	.	repeat_region	1541	1546	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g76080;target_sequence=cttctt
+
+AT1g02640	.	repeat_region	314	319	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g02640;target_sequence=cttctt
+
+AT1g02640	.	repeat_region	643	648	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g02640;target_sequence=cttctt
+
+AT5g35630	.	repeat_region	295	300	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g35630;target_sequence=cttctt
+
+AT5g35630	.	repeat_region	2111	2116	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g35630;target_sequence=cttctt
+
+AT5g35630	.	repeat_region	318	323	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g35630;target_sequence=cttctt
+
+AT1g69870	.	repeat_region	450	455	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g69870;target_sequence=cttctt
+
+AT2g47930	.	repeat_region	331	336	.	-	.	ID=AT5G54270.1.exon3;parent=AT2g47930;target_sequence=cttctt
+
+AT2g47930	.	repeat_region	287	292	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g47930;target_sequence=cttctt
+
+AT2g47930	.	repeat_region	148	153	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g47930;target_sequence=cttctt
+
+AT2g47930	.	repeat_region	112	117	.	-	.	ID=AT1G21400.5.exon1;parent=AT2g47930;target_sequence=cttctt
+
+AT4g02530	.	repeat_region	136	141	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g02530;target_sequence=cttctt
+
+AT4g02530	.	repeat_region	14	19	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g02530;target_sequence=cttctt
+
+AT4g38840	.	repeat_region	418	423	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g38840;target_sequence=cttctt
+
+AT3g50820	.	repeat_region	88	93	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g50820;target_sequence=cttctt
+
+AT4g37610	.	repeat_region	1867	1872	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g37610;target_sequence=cttctt
+
+AT4g37610	.	repeat_region	1070	1075	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g37610;target_sequence=cttctt
+
+AT4g37610	.	repeat_region	318	323	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g37610;target_sequence=cttctt
+
+AT1g76100	.	repeat_region	811	816	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g76100;target_sequence=cttctt
+
+AT1g08380	.	repeat_region	356	361	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g08380;target_sequence=cttctt
+
+AT4g04640	.	repeat_region	1468	1473	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g04640;target_sequence=cttctt
+
+AT4g04640	.	repeat_region	1461	1466	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g04640;target_sequence=cttctt
+
+AT4g04640	.	repeat_region	212	217	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g04640;target_sequence=cttctt
+
+AT4g04640	.	repeat_region	206	211	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g04640;target_sequence=cttctt
+
+AT5g38990	.	repeat_region	16	21	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g38990;target_sequence=cttctt
+
+AT5g38990	.	repeat_region	505	510	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g38990;target_sequence=cttctt
+
+AT5g38990	.	repeat_region	1138	1143	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g38990;target_sequence=cttctt
+
+AT3g05730	.	repeat_region	289	294	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g05730;target_sequence=cttctt
+
+AT3g05730	.	repeat_region	547	552	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g05730;target_sequence=cttctt
+
+AT4g39710	.	repeat_region	1767	1772	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g39710;target_sequence=cttctt
+
+AT4g39710	.	repeat_region	1759	1764	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g39710;target_sequence=cttctt
+
+AT4g39710	.	repeat_region	1753	1758	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g39710;target_sequence=cttctt
+
+AT4g39710	.	repeat_region	1723	1728	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g39710;target_sequence=cttctt
+
+AT4g39710	.	repeat_region	1651	1656	.	-	.	ID=AT1G21400.6.exon1;parent=AT4g39710;target_sequence=cttctt
+
+AT1g20440	.	repeat_region	923	928	.	-	.	ID=AT5G54270.1.exon3;parent=AT1g20440;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	802	807	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g02160;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	842	847	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g02160;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	1137	1142	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g02160;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	114	119	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g02160;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	228	233	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g02160;target_sequence=cttctt
+
+AT5g02160	.	repeat_region	285	290	.	+	.	ID=AT1G21400.6.exon1;parent=AT5g02160;target_sequence=cttctt
+
+AT2g05540	.	repeat_region	154	159	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g05540;target_sequence=cttctt
+
+AT3g62550	.	repeat_region	1267	1272	.	+	.	ID=AT5G54270.1.exon3;parent=AT3g62550;target_sequence=cttctt
+
+AT3g62550	.	repeat_region	475	480	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g62550;target_sequence=cttctt
+
+AT3g62550	.	repeat_region	490	495	.	+	.	ID=AT1G21400.5.exon1;parent=AT3g62550;target_sequence=cttctt
+
+AT1g14280	.	repeat_region	171	176	.	+	.	ID=AT5G54270.1.exon3;parent=AT1g14280;target_sequence=cttctt
+
+AT1g14280	.	repeat_region	249	254	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g14280;target_sequence=cttctt
+
+AT1g14280	.	repeat_region	261	266	.	+	.	ID=AT1G21400.5.exon1;parent=AT1g14280;target_sequence=cttctt
+
+AT2g43100	.	repeat_region	94	99	.	+	.	ID=AT5G54270.1.exon3;parent=AT2g43100;target_sequence=cttctt
+
+AT2g43100	.	repeat_region	1078	1083	.	+	.	ID=AT1G21400.5.exon1;parent=AT2g43100;target_sequence=cttctt
+
+AT4g09010	.	repeat_region	1861	1866	.	-	.	ID=AT5G54270.1.exon3;parent=AT4g09010;target_sequence=cttctt
+
+AT4g09010	.	repeat_region	1776	1781	.	-	.	ID=AT1G21400.5.exon1;parent=AT4g09010;target_sequence=cttctt
+
+AT5g49360	.	repeat_region	4461	4466	.	-	.	ID=AT5G54270.1.exon3;parent=AT5g49360;target_sequence=cttctt
+
+AT5g49360	.	repeat_region	212	217	.	-	.	ID=AT1G21400.5.exon1;parent=AT5g49360;target_sequence=cttctt
+
+AT3g16140	.	repeat_region	656	661	.	-	.	ID=AT5G54270.1.exon3;parent=AT3g16140;target_sequence=cttctt
+
+AT3g16140	.	repeat_region	496	501	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g16140;target_sequence=cttctt
+
+AT3g16140	.	repeat_region	461	466	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g16140;target_sequence=cttctt
+
+AT3g16140	.	repeat_region	294	299	.	-	.	ID=AT1G21400.5.exon1;parent=AT3g16140;target_sequence=cttctt
+
+AT5g01530	.	repeat_region	250	255	.	+	.	ID=AT5G54270.1.exon3;parent=AT5g01530;target_sequence=cttctt
+
+AT5g01530	.	repeat_region	1261	1266	.	+	.	ID=AT1G21400.5.exon1;parent=AT5g01530;target_sequence=cttctt
+
