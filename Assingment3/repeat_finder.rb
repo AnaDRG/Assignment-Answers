@@ -104,15 +104,9 @@ all_genes.each{|gene|  # For each gene, search for motif and if found, get coord
   exon_in_gene=[]
   sign=[]
   entry.features{|feature| # Search if feature corresponds to an exon
-    if feature.feature='exon'
-      unless /[A-Z]/.match(feature.position) # We are only interested in exons from gene (not remote entries)
-        feature.qualifiers.each{|q| 
-          if /exon_id=(.+)/.match(q.value)
-            ex_id=$1
-          else
-            ex_id=nil
-          end}
-        next if ex_id.nil?
+    if feature.feature='exon'      
+        feature.qualifiers.each{|q| (/exon_id=(.+)/.match(q.value)) ? ex_id=$1 : ex_id=nil}
+        next if ex_id.nil? || /[A-Z]/.match(feature.position) # We are only interested in exons from gene (not remote entries)
         begin
         exon=embl_bioseq.splicing(feature.position) #  If position of feature doesn't fit with gene sequence length, next feature 
         rescue
@@ -144,7 +138,6 @@ all_genes.each{|gene|  # For each gene, search for motif and if found, get coord
            exons << ex_id
         end
       end
-    end
    }
   unless coord_chr.empty? # If motif not found, then add gene name to Report file; otherwise, write summary files
     #s="++-"[exon_in_gene.first.strand <=> 0] # Get strand sign where exon is located
