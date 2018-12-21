@@ -1,0 +1,228 @@
+	###		Assingment 5		###
+
+###UniProt SPARQL Endpoint:  http://sparql.uniprot.org/sparql/
+
+1 POINT  How many protein records are in UniProt? 
+
+PREFIX up:<http://purl.uniprot.org/core/>
+SELECT COUNT(DISTINCT(?protein)) AS ?count
+WHERE
+{
+	?protein a up:Protein .
+}
+
+1 POINT How many Arabidopsis thaliana protein records are in UniProt? 
+
+PREFIX up:<http://purl.uniprot.org/core/>
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/> 
+SELECT (COUNT(DISTINCT(?protein)) AS ?count)
+WHERE
+{
+	?protein a up:Protein .
+	?protein up:organism taxon:3702 .
+}
+
+1 POINT:  What is the description of the enzyme activity of UniProt Protein Q9SZZ8 
+
+PREFIX uniprot:<http://purl.uniprot.org/uniprot/>
+PREFIX up:<http://purl.uniprot.org/core/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#> 
+SELECT ?name ?text
+WHERE {
+       uniprot:Q9SZZ8 up:encodedBy ?gene . 
+       ?gene skos:prefLabel ?name .      
+       uniprot:Q9SZZ8 up:annotation ?annotation .
+       ?annotation a up:Catalytic_Activity_Annotation .
+       ?annotation rdfs:comment ?text
+}
+
+No results were given because of no catalytic activity annotation exists for this enzyme. Alternatively: 
+
+PREFIX uniprot:<http://purl.uniprot.org/uniprot/>
+PREFIX up:<http://purl.uniprot.org/core/> 
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#> 
+SELECT ?name ?activity
+WHERE {
+       uniprot:Q9SZZ8 up:encodedBy ?gene . 
+       ?gene skos:prefLabel ?name .      
+       uniprot:Q9SZZ8 up:enzyme ?enzyme .
+       ?enzyme up:activity ?activity .    
+}
+
+No activity comments were retrieved, so another option (that has actual results) is:
+
+PREFIX uniprot:<http://purl.uniprot.org/uniprot/>
+PREFIX up:<http://purl.uniprot.org/core/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#> 
+SELECT ?name ?activity_comments
+WHERE {
+       uniprot:Q9SZZ8 up:encodedBy ?gene . 
+       ?gene skos:prefLabel ?name .      
+       uniprot:Q9SZZ8 up:enzyme ?enzyme .
+       ?enzyme rdfs:comment ?activity_comments
+}
+
+1 POINT:  Retrieve the proteins ids, and date of submission, for proteins that have been added to UniProt this year   (HINT Google for “SPARQL FILTER by date”)
+
+PREFIX up:<http://purl.uniprot.org/core/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?protein ?date
+WHERE 
+{
+    ?protein a up:Protein .
+    ?protein up:created ?date .
+    FILTER ( ?date >= "2018-01-01"^^xsd:date) 
+}
+
+1 POINT How many species are in the UniProt taxonomy?
+
+PREFIX up:<http://purl.uniprot.org/core/>
+SELECT (COUNT(DISTINCT ?taxon) AS ?count) 
+WHERE
+{
+	?taxon a up:Taxon .
+	?taxon up:rank up:Species  
+}			
+
+1 POINT  How many species have at least one protein record?
+
+PREFIX up:<http://purl.uniprot.org/core/>
+SELECT (COUNT(DISTINCT ?taxon) AS ?count)
+WHERE
+{
+	?protein a up:Protein .
+  	?protein up:organism ?taxon .
+  	?taxon up:rank up:Species
+}
+
+
+
+###From the Atlas gene expression database SPARQL Endpoint: http://www.ebi.ac.uk/rdf/services/atlas/sparql
+
+1 POINT What is the Affymetrix probe ID for the Arabiodopsis Apetala3 gene?  (HINT - you cannot answer this directly from Atlas - you will first have to look at what kinds of database cross-references are in Atlas, and then construct the appropriate URI for the Apetala3 gene based on its ID number in *that* database)
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/terms/atlas/>
+PREFIX up:<http://purl.uniprot.org/core/>
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/>
+SELECT ?id
+WHERE
+{
+  	SERVICE<http://sparql.uniprot.org/sparql> 
+    {
+      	?protein a up:Protein . 
+	?protein up:organism taxon:3702 . 
+    	?protein up:recommendedName ?name . 
+  	?name up:fullName ?full . 
+  	FILTER CONTAINS( ?full, 'APETALA 3') . 
+    }
+    ?protein a atlas:DatabaseReference .
+    ?probe atlas:dbXref ?protein . 
+    ?probe dcterms:identifier ?id 
+  	
+}
+
+3 POINTS - get the experimental description for all experiments where the Arabidopsis Apetala3 gene is DOWN regulated 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX atlas: <http://rdf.ebi.ac.uk/resource/atlas/>
+PREFIX atlasterms: <http://rdf.ebi.ac.uk/terms/atlas/>
+PREFIX up:<http://purl.uniprot.org/core/> 
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/> 
+SELECT ?descrip
+WHERE
+{
+  	SERVICE<http://sparql.uniprot.org/sparql> 
+    {
+      	?protein a up:Protein .
+	?protein up:organism taxon:3702 .
+    	?protein up:recommendedName ?name .
+  		?name up:fullName ?full .
+  		FILTER CONTAINS( ?full, 'APETALA 3') .
+    }
+    ?protein a atlasterms:DatabaseReference .
+    ?probe atlasterms:dbXref ?protein .  
+    ?diffexp atlasterms:isMeasurementOf ?probe .
+    ?diffexpan atlasterms:hasExpressionValue ?diffexp .
+    ?diffexp sio:has-value ?value .
+    ?experiment atlasterms:hasAnalysis ?diffexpan .
+    ?experiment dct:description ?descrip .     
+    FILTER CONTAINS(?value, "DOWN") 
+}
+
+###From the REACTOME database SPARQL endpoint:  http://www.ebi.ac.uk/rdf/services/reactome/sparql
+
+2 POINTS:  How many REACTOME pathways are assigned to Arabidopsis (taxon 3702)? (note that REACTOME uses different URLs to define their taxonomy compared to UniProt, so you will first have to learn how to structure those URLs….)
+
+PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
+PREFIX taxon:<http://identifiers.org/taxonomy/> 
+SELECT (COUNT (DISTINCT ?pathway) AS ?count)
+WHERE 
+{
+	?pathway a biopax3:Pathway . 
+	?pathway biopax3:organism taxon:3702
+}
+
+
+3 POINTS:  get all PubMed references for the pathway with the name “Degradation of the extracellular matrix”
+
+PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
+SELECT DISTINCT ?pubmedId
+WHERE
+{
+	?pathway a biopax3:Pathway .
+	?pathway biopax3:displayName ?name . 
+	?pathway biopax3:xref ?ref . 
+	?red biopax3:db ?db . 
+	?ref biopax3:id ?pubmedId . 
+	FILTER(str(?name) = 'Degradation of the extracellular matrix') .
+	FILTER(str(?db) ='Pubmed') 
+}
+
+###BONUS QUERIES
+
+UniProt BONUS 2 points:  find the AGI codes and gene names for all Arabidopsis thaliana  proteins that have a protein function annotation description that mentions “pattern formation”
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX up:<http://purl.uniprot.org/core/>
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/>
+PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+SELECT ?agi ?gene_name
+WHERE
+{
+	?protein a up:Protein .
+	?protein up:organism taxon:3702 .
+	?protein up:encodedBy ?gene .
+	?gene skos:prefLabel ?gene_name .
+	?gene up:locusName ?agi .
+	?protein up:annotation ?annotation.
+	?annotation a up:Function_Annotation .
+	?annotation rdfs:comment ?an_text .
+	FILTER CONTAINS(?an_text,"pattern formation") .
+
+}
+
+REACTOME BONUS 2 points:  write a query that proves that all Arabidopsis pathway annotations in Reactome are “inferred from electronic annotation” (evidence code)  (...and therefore are probably garbage!!!)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
+PREFIX taxon: <http://identifiers.org/taxonomy/>
+SELECT (COUNT(?pathway_all) AS ?all_pathways) (COUNT(?pathway_filtered) AS ?electronic_inferred) 
+WHERE
+{
+    ?pathway_all a biopax3:Pathway .
+    ?pathway_filtered a biopax3:Pathway .
+    ?pathway_all biopax3:organism taxon:3702 . 
+    ?pathway_filtered biopax3:organism taxon:3702 .
+    ?pathway_all biopax3:evidence ?evid_all .  
+    ?pathway_filtered biopax3:evidence ?evid_filtered .  
+    ?evid_all biopax3:evidenceCode ?evid_c_all.
+    ?evid_filtered biopax3:evidenceCode ?evid_c_filtered .
+    ?evid_c_all biopax3:term ?annotation_all . 
+    ?evid_c_filtered biopax3:term ?annotation_filtered .
+    FILTER regex(?annotation_filtered, "inferred from electronic annotation") 
+}
+
