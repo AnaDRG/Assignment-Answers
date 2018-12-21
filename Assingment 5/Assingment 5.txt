@@ -64,7 +64,7 @@ WHERE {
        ?enzyme rdfs:comment ?activity_comments
 }
 
-1 POINT:  Retrieve the proteins ids, and date of submission, for proteins that have been added to UniProt this year   (HINT Google for ìSPARQL FILTER by dateî)
+1 POINT:  Retrieve the proteins ids, and date of submission, for proteins that have been added to UniProt this year   (HINT Google for ‚ÄúSPARQL FILTER by date‚Äù)
 
 PREFIX up:<http://purl.uniprot.org/core/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -155,7 +155,7 @@ WHERE
 
 ###From the REACTOME database SPARQL endpoint:  http://www.ebi.ac.uk/rdf/services/reactome/sparql
 
-2 POINTS:  How many REACTOME pathways are assigned to Arabidopsis (taxon 3702)? (note that REACTOME uses different URLs to define their taxonomy compared to UniProt, so you will first have to learn how to structure those URLsÖ.)
+2 POINTS:  How many REACTOME pathways are assigned to Arabidopsis (taxon 3702)? (note that REACTOME uses different URLs to define their taxonomy compared to UniProt, so you will first have to learn how to structure those URLs‚Ä¶.)
 
 PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
 PREFIX taxon:<http://identifiers.org/taxonomy/> 
@@ -167,7 +167,7 @@ WHERE
 }
 
 
-3 POINTS:  get all PubMed references for the pathway with the name ìDegradation of the extracellular matrixî
+3 POINTS:  get all PubMed references for the pathway with the name ‚ÄúDegradation of the extracellular matrix‚Äù
 
 PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
 SELECT DISTINCT ?pubmedId
@@ -184,7 +184,7 @@ WHERE
 
 ###BONUS QUERIES
 
-UniProt BONUS 2 points:  find the AGI codes and gene names for all Arabidopsis thaliana  proteins that have a protein function annotation description that mentions ìpattern formationî
+UniProt BONUS 2 points:  find the AGI codes and gene names for all Arabidopsis thaliana  proteins that have a protein function annotation description that mentions ‚Äúpattern formation‚Äù
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX up:<http://purl.uniprot.org/core/>
@@ -205,7 +205,7 @@ WHERE
 
 }
 
-REACTOME BONUS 2 points:  write a query that proves that all Arabidopsis pathway annotations in Reactome are ìinferred from electronic annotationî (evidence code)  (...and therefore are probably garbage!!!)
+REACTOME BONUS 2 points:  write a query that proves that all Arabidopsis pathway annotations in Reactome are ‚Äúinferred from electronic annotation‚Äù (evidence code)  (...and therefore are probably garbage!!!)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX biopax3: <http://www.biopax.org/release/biopax-level3.owl#>
